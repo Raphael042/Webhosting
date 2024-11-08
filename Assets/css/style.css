@@ -81,6 +81,7 @@ nav{
 }
 .service-container ul{
     display: flex;
+    gap: 5%;
     width: 90%;
     position: relative;
     margin-left: auto;
@@ -107,3 +108,77 @@ nav{
 .fa-comments{
     color: #faa423;
 }
+.service-container ul li h3{
+    margin-bottom: 25px;
+}
+.service-container il li p{
+    line-height: 24px;
+}
+.planos-container{
+    padding: 5em;
+    text-align: center;
+    background-color: #d9d9d9;
+}
+.planos-container h2{
+font-size:  36px;
+margin-top: 0;
+}
+.planos-container h3{
+    font-size: 20px;
+}
+.precos-container{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    width: 90%;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+}
+.plano{
+    flex: 1 1 200px;
+    max-width: 275px;
+    margin-left: 20px;
+    margin-right: 20px;   
+}
+.planos-container .precos-container .preco{
+    background-color: chartreuse;
+    width: 150px;
+    height: 150px;
+    margin: auto;
+    border-radius: 50%;
+    padding-top: 60px;
+    font-size: 25px;
+    font-weight: 600;
+    list-style: none;
+    margin-bottom: -65px;
+    z-index: 1;
+    position: relative;
+}
+.planos-container .precos-container .nome-plano{
+font-size: 30px;
+width: 280px;
+background-color: black;
+color: white;
+height: 120px;
+line-height: 180px;
+}
+.plano ul li{
+    list-style: none;
+    background-color: white;
+    line-height: 30px;
+    padding-top: 10px;
+}
+.planos-container .precos-container .btn-plano{
+    background-color: chartreuse;
+    color: black;
+    font-size: 26px;
+    font-weight: 600;
+    height: 50px;
+}
+.planos-container .precos-container .recomendado{
+    background-color: #FF1300;
+}
+
+
+
