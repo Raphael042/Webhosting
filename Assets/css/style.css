@@ -143,12 +143,12 @@ margin-top: 0;
 }
 .planos-container .precos-container .preco{
     background-color: chartreuse;
-    width: 150px;
-    height: 150px;
+    width: 130px;
+    height: 130px;
     margin: auto;
     border-radius: 50%;
     padding-top: 60px;
-    font-size: 25px;
+    font-size: 22px;
     font-weight: 600;
     list-style: none;
     margin-bottom: -65px;
@@ -156,7 +156,7 @@ margin-top: 0;
     position: relative;
 }
 .planos-container .precos-container .nome-plano{
-font-size: 30px;
+font-size: 26px;
 width: 280px;
 background-color: black;
 color: white;
@@ -171,14 +171,493 @@ line-height: 180px;
 }
 .planos-container .precos-container .btn-plano{
     background-color: chartreuse;
-    color: black;
-    font-size: 26px;
-    font-weight: 600;
+    color: white;
+    font-size: 22px;
+    font-weight: 400;
     height: 50px;
+    cursor: pointer;
 }
 .planos-container .precos-container .recomendado{
     background-color: #FF1300;
 }
+.buscar-dominio{
+    background-color: black;
+    text-align: center;
+    padding: 5em 0;
+}
+.buscar-dominio h2{
+    color: white;
+    font-size: 42px;
+    margin-top: 0;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+}
+.buscar-dominio p{
+    color: white;
+    font-size: 25px;
+    margin-bottom: 25px;
+}
+.buscar-dominio input{
+    display: block;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    border: none;
+    border-radius: 50px;
+}
+.buscar-dominio input[type="text"]{
+    width: 60%;
+    margin-bottom: 25px;
+    padding: 20px;
+    font-size: 20px;
+}
+.buscar-dominio input[type="submit"]{
+    width: 12%;
+    padding: 15px 30px;
+    font-size: 24px;
+    background-color: #52fc16;
+    color: black;
+    cursor: pointer;
+}
+.contato-container{
+    text-align: center;
+    padding-top: 5em;
+    padding-bottom: 2em;
+}
+.contato-container h2{
+    font-size: 20px;
+    margin-bottom: 40px;
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+.contato-container input, .contato-container textarea{
+    width: 222px;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+}
+.contato-container textarea{
+    display: block;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    width: 468px;
+    height: 150px;
+}
+.contato-container input[type="submit"]{
+    display: block;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #52fc16;
+    cursor: pointer;
+    color: black;
+}
+footer{
+    text-align: center;
+    font-weight: 700;
+    margin-bottom: 10px;
+    background-color: black;
+    color: white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-decoration: underline;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
